@@ -40,13 +40,6 @@ A fast, colorful JavaScript static analysis tool written in Go. It scans local f
  go install github.com/unvalidor/js-dragon@latest
 ```
 
-
-### Alternative: run without building
-
-```bash
-go run js-dragon.go -f app.js
-```
-
 ---
 
 ## Usage
