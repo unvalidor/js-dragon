@@ -36,41 +36,10 @@ A fast, colorful JavaScript static analysis tool written in Go. It scans local f
 
 ## Installation
 
-### 1. Clone or download
-
-```bash
-git clone https://github.com/unvalidor/js-dragon.git
-cd js-dragon
+```
+ go install github.com/unvalidor/js-dragon@latest
 ```
 
-Or just copy the `js-dragon.go` file into an empty directory.
-
-### 2. Initialize the module and fetch dependencies
-
-```bash
-go mod init jsdragon
-go get github.com/fatih/color
-go get github.com/PuerkitoBio/goquery
-go mod tidy
-```
-
-### 3. Build
-
-```bash
-go build -o js-dragon js-dragon.go
-```
-
-### 4. (Optional) Install globally
-
-```bash
-go install
-```
-
-Then run from anywhere:
-
-```bash
-js-dragon -h
-```
 
 ### Alternative: run without building
 
